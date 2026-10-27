@@ -1,0 +1,39 @@
+# Personal data and runtime state
+personal/
+data/
+outbox/
+workspace/
+cache/
+logs/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+*.eml
+*.msg
+
+# Credentials
+.env
+.env.*
+secrets/
+*.pem
+*.key
+*.pfx
+*.p12
+auth.json
+credentials.json
+integration*.json
+cookies*.json
+
+# Local and generated files
+backups/
+*.bak
+*.bak-*
+*.tmp
+*.pyc
+__pycache__/
+node_modules/
+.DS_Store
+Thumbs.db

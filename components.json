@@ -1,0 +1,25 @@
+{
+  "schema": "personal-os.public-components.v1",
+  "release": "1.0.0",
+  "components": [
+    {
+      "name": "Cairn",
+      "version": "1.2.0",
+      "app_version": "Vol.2.6",
+      "source": "https://github.com/zheweiwu080623-arch/Cairn",
+      "release_tag": "v1.2.0",
+      "public_source": true
+    },
+    {
+      "name": "University OS",
+      "version": "2026-10-27-snapshot",
+      "source": "private workspace",
+      "public_source": false,
+      "documented_only": true
+    }
+  ],
+  "private_execution_adapters": {
+    "public_source": false,
+    "included_in_documentation": false
+  }
+}
